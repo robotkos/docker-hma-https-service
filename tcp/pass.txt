@@ -1,2 +1,0 @@
-HMA_login
-HMA_password
