@@ -17,4 +17,4 @@ COPY opt /opt
 
 #EXPOSE 3128
 
-CMD tinyproxy && openvpn --config /etc/openvpn/Belgium.Brussels.TCP.ovpn --pull-filter ignore "ifconfig-ipv6" --pull-filter ignore "route-ipv6" --script-security 2 --up "/opt/openvpn-up.sh"
+CMD tinyproxy && openvpn --config /etc/openvpn/Angola.Luanda.TCP.ovpn --pull-filter ignore "ifconfig-ipv6" --pull-filter ignore "route-ipv6" --script-security 2 --up "/opt/openvpn-up.sh"
